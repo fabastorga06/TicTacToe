@@ -62,6 +62,7 @@ export default class Board extends React.Component {
 
     return (
       <div>
+        <div> FABIAN ASTORGA </div>
         <div className="status">{status}</div>
         <div className="board-row">
           {this.renderSquare(0)}
